@@ -14,6 +14,7 @@
 
 /* Módulo */
 .modulo {
+    position: relative;
     width: 700px;
     height: 500px;
     display:flex;
@@ -21,7 +22,8 @@
     align-items: center;
     padding: 20px;
     border: 1px solid black;
-    background-image: url('img/naruto-modulo.jpg');
+    opacity: 0.8;
+    background-image: url('/img/Andy/Eres mi estrella1.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
@@ -35,6 +37,7 @@
 .info h2 {
     margin-bottom: 10px;
     font-size: 20px;
+    color: white;
 }
 
 .info ul {
@@ -45,7 +48,7 @@
 
 .info li {
     margin-bottom: 5px;
-    color: white    ;
+    color: white   ;
     text-shadow: 
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -62,7 +65,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url('img/naruto-temp.jpg');
+    background-image: url('/img/Andy/Eres mi estrella2.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */

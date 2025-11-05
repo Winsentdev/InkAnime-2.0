@@ -21,7 +21,7 @@
     align-items: center;
     padding: 20px;
     border: 1px solid black;
-    background-image: url('img/naruto-modulo.jpg');
+    background-image: url('/img/Andy/Noche con el duque2.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
@@ -62,7 +62,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url('img/naruto-temp.jpg');
+    background-image: url('/img/Andy/Noche con el duque1.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
