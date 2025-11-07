@@ -5,8 +5,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-
-    background-image: url("");
+    background-image: url('#');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
@@ -22,11 +21,14 @@
     align-items: center;
     padding: 20px;
     border: 1px solid black;
-    opacity: 1;
-    background-image: url("/img/Darlene/Aterrizaje\ de\ emergencia\ en\ tu\ corazón.jpg");
+    opacity: 0.8;
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
+        url('/img/Darlene/Aterrizaje\ de\ emergencia\ en\ tu\ corazón.jpg'); /* Imagen de fondo */
+    flex-wrap: wrap;
 }
 
 /* Texto y lista */
@@ -55,6 +57,9 @@
     -1px  1px 0 black,
     1px  1px 0 black;
 }
+.contenedor-principal .modulo .info ul li a {
+    color: white;
+}
 
 /* Imagen */
 .imagen {
@@ -65,7 +70,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url('/img/Darlene/aterrizaje\ de\ emergencia\ en\ tu\ corazón\ 2.jpg');
+    background-image: url('/img/Darlene/Aterrizaje\ de\ emergencia\ en\ tu\ corazón\ 2.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
