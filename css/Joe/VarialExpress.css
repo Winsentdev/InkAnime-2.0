@@ -5,27 +5,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-
-    background-image: url('img/Naruto-fondo.jpg');
-    background-size: cover;      /* La imagen cubre todo el fondo */
-    background-position: center; /* Centrada */
-    background-repeat: no-repeat;/* No se repite */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Módulo */
 .modulo {
     width: 700px;
     height: 500px;
-    display:flex;
-    justify-content: space-between; /* reparte mejor el espacio */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 1px solid black;
-    background-image: url('img/naruto-modulo.jpg');
-    background-size: cover;      /* La imagen cubre todo el fondo */
-    background-position: center; /* Centrada */
-    background-repeat: no-repeat;/* No se repite */
 }
 
 /* Texto y lista */
@@ -46,12 +42,9 @@
 
 .info li {
     margin-bottom: 5px;
-    color: white    ;
-    text-shadow: 
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px  1px 0 black,
-    1px  1px 0 black;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black,
+                -1px  1px 0 black, 1px  1px 0 black;
 }
 
 /* Imagen */
@@ -62,11 +55,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-image: url('img/naruto-temp.jpg');
-    background-size: cover;      /* La imagen cubre todo el fondo */
-    background-position: center; /* Centrada */
-    background-repeat: no-repeat;/* No se repite */
 }
 
 .imagen img {
