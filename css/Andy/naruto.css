@@ -7,30 +7,42 @@
     border: 2px solid black;
 
     background-image: url('img/Naruto-fondo.jpg');
-    background-size: cover;      /* La imagen cubre todo el fondo */
-    background-position: center; /* Centrada */
-    background-repeat: no-repeat;/* No se repite */
+    background-size: cover;
+    /* La imagen cubre todo el fondo */
+    background-position: center;
+    /* Centrada */
+    background-repeat: no-repeat;
+    /* No se repite */
 }
 
 /* Módulo */
 .modulo {
     width: 700px;
     height: 500px;
-    display:flex;
-    justify-content: space-between; /* reparte mejor el espacio */
+    display: flex;
+    justify-content: space-between;
+    /* reparte mejor el espacio */
     align-items: center;
     padding: 20px;
     border: 1px solid black;
-    background-image: url('/img/Andy/naruto2.webp');
-    background-size: cover;      /* La imagen cubre todo el fondo */
-    background-position: center; /* Centrada */
-    background-repeat: no-repeat;/* No se repite */
+    background-size: cover;
+    /* La imagen cubre todo el fondo */
+    background-position: center;
+    /* Centrada */
+    background-repeat: no-repeat;
+    /* No se repite */
+    color: white;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        /* Filtro oscuro con opacidad */
+        url('/img/Andy/naruto2.webp');
+    /* Imagen de fondo */
 }
 
 /* Texto y lista */
 .info {
     flex: 1;
-    
+
 }
 
 .info h2 {
@@ -46,12 +58,15 @@
 
 .info li {
     margin-bottom: 5px;
-    color: white    ;
-    text-shadow: 
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px  1px 0 black,
-    1px  1px 0 black;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.contenedor-principal .modulo .info ul li a {
+    color: white;
 }
 
 /* Imagen */
@@ -64,9 +79,12 @@
     align-items: center;
 
     background-image: url('/img/Andy/naruto1.jpg');
-    background-size: cover;      /* La imagen cubre todo el fondo */
-    background-position: center; /* Centrada */
-    background-repeat: no-repeat;/* No se repite */
+    background-size: cover;
+    /* La imagen cubre todo el fondo */
+    background-position: center;
+    /* Centrada */
+    background-repeat: no-repeat;
+    /* No se repite */
 }
 
 .imagen img {

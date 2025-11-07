@@ -25,6 +25,9 @@
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
+     background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
+        url('/img/Andy/reina de confianza2.jpg'); /* Imagen de fondo */
 }
 
 /* Texto y lista */
@@ -35,6 +38,7 @@
 .info h2 {
     margin-bottom: 10px;
     font-size: 20px;
+    color: white;
 }
 
 .info ul {
@@ -51,6 +55,9 @@
     1px -1px 0 black,
     -1px  1px 0 black,
     1px  1px 0 black;
+}
+.contenedor-principal .modulo .info ul li a {
+    color: white;
 }
 
 /* Imagen */
