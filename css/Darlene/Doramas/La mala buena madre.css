@@ -6,7 +6,7 @@
     align-items: center;
     border: 2px solid black;
 
-    background-image: url('img/Naruto-fondo.jpg');
+
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
@@ -28,7 +28,7 @@
     background-repeat: no-repeat;/* No se repite */
      background-image: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
-        url('/img/Andy/Eres mi estrella1.jpg'); /* Imagen de fondo */
+        url("/img/Darlene/la\ buena\ mala\ madre\ 1.jpg"); /* Imagen de fondo */
     flex-wrap: wrap;
 }
 
@@ -71,7 +71,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url('/img/Andy/Eres mi estrella2.jpg');
+    background-image: url("/img/Darlene/la\ buena\ mala\ madre2.jpg");
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
