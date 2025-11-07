@@ -23,10 +23,12 @@
     padding: 20px;
     border: 1px solid black;
     opacity: 0.8;
-    background-image: url('/img/Andy/Eres mi estrella1.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
+     background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
+        url('/img/Andy/Eres mi estrella1.jpg'); /* Imagen de fondo */
 }
 
 /* Texto y lista */
@@ -54,6 +56,9 @@
     1px -1px 0 black,
     -1px  1px 0 black,
     1px  1px 0 black;
+}
+.contenedor-principal .modulo .info ul li a {
+    color: white;
 }
 
 /* Imagen */
