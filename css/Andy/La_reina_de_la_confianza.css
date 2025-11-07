@@ -21,13 +21,13 @@
     align-items: center;
     padding: 20px;
     border: 1px solid black;
-    background-image: url('/img/Andy/reina de confianza2.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
      background-image: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
         url('/img/Andy/reina de confianza2.jpg'); /* Imagen de fondo */
+    flex-wrap: wrap;
 }
 
 /* Texto y lista */
