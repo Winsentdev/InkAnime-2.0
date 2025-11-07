@@ -20,20 +20,17 @@
     width: 700px;
     height: 500px;
     display: flex;
-    justify-content: space-between;
-    /* reparte mejor el espacio */
+    justify-content: space-between; /* reparte mejor el espacio */
     align-items: center;
     padding: 20px;
     border: 1px solid black;
-    background-size: cover;
-    /* La imagen cubre todo el fondo */
-    background-position: center;
-    /* Centrada */
-    background-repeat: no-repeat;
-    /* No se repite */
+    background-size: cover; /* La imagen cubre todo el fondo */
+    background-position: center; /* Centrada */
+    background-repeat: no-repeat; /* No se repite */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
         url('/img/Andy/One Piece2.webp'); /* Imagen de fondo */
+    flex-wrap: wrap;
 }
 
 /* Texto y lista */

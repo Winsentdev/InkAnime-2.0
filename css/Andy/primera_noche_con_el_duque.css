@@ -27,6 +27,7 @@
      background-image: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
         url('/img/Andy/Noche con el duque2.jpg'); /* Imagen de fondo */
+    flex-wrap: wrap;
 }
 
 /* Texto y lista */
