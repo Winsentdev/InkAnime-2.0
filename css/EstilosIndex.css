@@ -116,6 +116,12 @@ main section {
     gap: 25px;
     margin-top: 20px;
 }
+
+.grid-videos a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 /* TARJETAS DE VIDEO */
 .card {
     background-color: #1a1a1a;
