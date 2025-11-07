@@ -6,20 +6,30 @@
 
 html, body {
     margin: 0;
-    padding: 0 50px; /* ← Añade espacio a los lados */
-    background-color: #0d0d0d; /* tu color de fondo */
+    padding: 0;
+    background-color: #0d0d0d;
     color: white;
     font-family: Arial, sans-serif;
+    width: 99.9%;
+    height: 100%;
 }
 
 /* HEADER */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111; /* color oscuro del header */
+    border-bottom: 2px solid #00bcd4;
+    z-index: 1000; /* asegura que quede sobre el resto */
+    padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
-    background-color: #1a1a1a;
-    border-bottom: 2px solid #00bcd4;
+}
+body {
+    padding-top: 80px; /* ajusta según el alto de tu header */
 }
 
 .logoHeader {
@@ -93,6 +103,12 @@ main {
     color: #00bcd4;
 }
 
+/* AJUSTE DEL MAIN SECTION */
+main section {
+    flex: 1;
+    padding: 0 30px; /* 🔥 espacio lateral izquierdo y derecho */
+}
+
 /* GRID DE VIDEOS */
 .grid-videos {
     display: grid;
@@ -100,25 +116,37 @@ main {
     gap: 25px;
     margin-top: 20px;
 }
-
-/* TARJETAS */
+/* TARJETAS DE VIDEO */
 .card {
     background-color: #1a1a1a;
     border: 1px solid #00bcd4;
-    border-radius: 10px;
-    padding: 10px;
-    height: 160px;
+    border-radius: 12px;
     text-align: center;
-    transition: transform 0.3s ease;
-    position: relative;
+    transition: transform 0.3s border-color 0.3s;
     overflow: hidden;
+    color: #00bcd4;
+    padding-bottom: 10px;
     
-}
 
+    /* Mantiene forma cuadrada */
+    aspect-ratio: 1 / 1; /* 🔥 Hace que ancho = alto */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .card:hover {
     transform: scale(1.08);
-}
+    box-shadow: 0 0 10px #00bcd4;
+    }
 
+/* IMAGEN DEL VIDEO */   
+
+.card img {
+    width: 100%;
+    height: 70%; /* deja espacio para el texto */
+    object-fit: cover;
+    border-bottom: 2px solid #00bcd4;
+}
 /* MINIATURAS */
 .miniatura {
     width: 100%;
@@ -134,25 +162,31 @@ main {
     opacity: 0.7;
 }
 
+
 /* VIDEO (oculto por defecto para simular portada) */
 .card video {
     width: 100%;
-    height: 160px;
+    height: auto;
     object-fit: cover;
     border-radius: 8px;
-    display: none;
+    display:none;
+
+
+
 }
 
 /* TITULOS Y TEXTOS */
 .card h3 {
+    margin: 8px 5px 2px;
+    font-size: 1rem;
     color: #00bcd4;
-    margin-top: 8px;
-    font-size: 16px;
+    line-height: 1.2em;
 }
 
 .card p {
-    color: #ccc;
-    font-size: 14px;
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
 }
 
 .card-video img {
@@ -171,12 +205,22 @@ main {
 
 @media (max-width: 1024px) {
 .grid-videos {
-    grid-template-columns: repeat(4, 1fr); /* 2 videos por fila */
+    grid-template-columns: repeat(4, 1fr);
 }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 800px) {
 .grid-videos {
-    grid-template-columns: 1fr; /* 1 video por fila */
+    grid-template-columns: repeat(2, 1fr);
 }
 }
+
+@media (max-width: 500px) {
+.grid-videos {
+    grid-template-columns: 1fr;
+}
+}
+
+
+

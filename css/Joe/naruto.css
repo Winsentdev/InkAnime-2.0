@@ -1,3 +1,4 @@
+/* Contenedor principal */
 .contenedor-principal {
     width: 100%;
     height: 100vh;
@@ -6,6 +7,7 @@
     align-items: center;
     border: 2px solid black;
 
+    background-image: url('img/Naruto-fondo.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
@@ -13,7 +15,6 @@
 
 /* Módulo */
 .modulo {
-    position: relative;
     width: 700px;
     height: 500px;
     display:flex;
@@ -21,13 +22,10 @@
     align-items: center;
     padding: 20px;
     border: 1px solid black;
-    opacity: 1;
+    background-image: url('img/naruto-modulo.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
-        url("/img/Darlene/el\ genio\ de\ los\ deseos\ 1.jpg"); /* Imagen de fondo */
 }
 
 /* Texto y lista */
@@ -38,7 +36,6 @@
 .info h2 {
     margin-bottom: 10px;
     font-size: 20px;
-    color: white;
 }
 
 .info ul {
@@ -49,7 +46,7 @@
 
 .info li {
     margin-bottom: 5px;
-    color: white   ;
+    color: white    ;
     text-shadow: 
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -66,7 +63,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url("/img/Darlene/el\ genio\ de\ los\ deseos\ 2.jpg");
+    background-image: url('img/naruto-temp.jpg');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
