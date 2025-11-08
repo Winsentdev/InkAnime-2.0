@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    background-image: url('/img/Fondo/fondo3.webp');
+    background-image: url('/img/Fondo/fondo3.png');
     background-size: cover;      /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat;/* No se repite */
