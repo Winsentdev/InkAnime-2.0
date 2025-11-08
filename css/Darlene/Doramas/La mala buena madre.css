@@ -27,7 +27,7 @@
     background-repeat: no-repeat;/* No se repite */
      background-image: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
-        url("/img/Darlene/la\ buena\ mala\ madre\ 1.jpg"); /* Imagen de fondo */
+        url("/img/Darlene/la buena mala madre 1.jpg"); /* Imagen de fondo */
     flex-wrap: wrap;
 }
 
