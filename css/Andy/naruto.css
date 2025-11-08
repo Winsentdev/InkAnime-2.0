@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    background-image: url('/img/Fondo/fondo2.webp');
+    background-image: url('../../img/Fondo/fondo2.webp');
     background-size: cover; /* La imagen cubre todo el fondo */
     background-position: center; /* Centrada */
     background-repeat: no-repeat; /* No se repite */
@@ -26,7 +26,7 @@
     color: white;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Filtro oscuro con opacidad */
-        url('/img/Andy/naruto2.webp'); /* Imagen de fondo */
+        url('../../img/Andy/naruto2.webp'); /* Imagen de fondo */
     flex-wrap: wrap;
 }
 
